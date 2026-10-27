@@ -10,32 +10,32 @@ Build an isolated virtual lab for cybersecurity practice with Kali Linux, NAT Ne
 
 ### 1. VirtualBox and Kali Installation
 Imported the pre-built Kali Linux VirtualBox image.
-![VM Running](screenshots/01-vm-running.png)
+![VM Running](screenshots/01-vm-running.jpg)
 
 ### 2. NAT Network Configuration
 Created a NAT Network named `NatNetwork` with the IPv4 Prefix `10.0.0.0/24`.
-![NAT Network](screenshots/02-natnetwork-settings.png)
+![NAT Network](screenshots/02-natnetwork-settings.jpg)
 
 ### 3. Kali VM Network Settings
 Attached the Kali VM to `NatNetwork` and set Promiscuous Mode to `Allow All`.
-![Kali Network Adapter](screenshots/03-kali-network-adapter.png)
+![Kali Network Adapter](screenshots/03-kali-network-adapter.jpg)
 
 ### 4. Clipboard and Drag-and-Drop
 Enabled Bidirectional Shared Clipboard and Drag-and-Drop.
-![Clipboard Settings](screenshots/04-clipboard-dragdrop.png)
+![Clipboard Settings](screenshots/04-clipboard-dragdrop.jpg)
 
 ### 5. Shared Folders
 Shared the Windows Downloads folder to Kali as `/downloads`.
-![Shared Folder Settings](screenshots/07-shared-folder-settings.png)
-![Shared Folder on Desktop](screenshots/05-shared-folder-desktop.png)
+![Shared Folder Settings](screenshots/07-shared-folder-settings.jpg)
+![Shared Folder on Desktop](screenshots/05-shared-folder-desktop.jpg)
 
 ### 6. Static IP Configuration
 Configured the static IP `10.0.0.2/24` inside Kali using `nmcli`.
-![IP and Internet](screenshots/06-kali-ip-config-internet.png)
+![IP and Internet](screenshots/06-kali-ip-config-internet.jpg)
 
 ### 7. Snapshot
 Took a clean snapshot of the finished lab.
-![Snapshot](screenshots/08-snapshot.png)
+![Snapshot](screenshots/08-snapshot.jpg)
 
 ## Troubleshooting
 
